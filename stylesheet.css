@@ -1,49 +1,66 @@
 /* Apply styles to the <body> tag */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #fce4ec; /* Light pink background */
+    color: #333; /* Dark text for contrast */
 }
 
 /* Style the header section */
 header {
-    background: #333;
-    color: #fff;
+    background: #ff66b2; /* Bright pink background */
+    color: #fff; /* White text */
     padding: 1em;
     text-align: center;
+    border-bottom: 5px solid #ff99cc; /* Light pink border at the bottom */
 }
 
 /* Style the <a> tags */
 a {
-    color: #0066cc;
+    color: #ff3399; /* Hot pink */
     text-decoration: none;
+    font-weight: bold;
 }
 
 /* Change <a> color on hover */
 a:hover {
-    color: #ff6600;
+    color: #ff66b2; /* Change to a lighter pink on hover */
+    text-decoration: underline; /* Add underline on hover */
 }
 
 /* Style the .content class */
 .content {
-    background: #f4f4f4;
+    background: #ffebee; /* Very light pink */
     padding: 1em;
     margin: 1em;
-    border-radius: 5px;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ff99cc; /* Light pink border */
 }
 
 /* Style the #intro id */
 #intro {
-    background: #e2e2e2;
+    background: #f8bbd0; /* Soft pink */
     padding: 1em;
     margin: 1em;
-    border-radius: 5px;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid #ff66b2; /* Bright pink border */
 }
 
 /* Style the img tag */
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 50%; /* Circular profile picture */
+    border: 3px solid #ff99cc; /* Light pink border around image */
+}
+
+/* Style the footer section */
+footer {
+    background: #ff66b2; /* Bright pink background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1em;
+    border-top: 5px solid #ff99cc; /* Light pink border at the top */
 }
