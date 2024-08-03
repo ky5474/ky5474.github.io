@@ -1,0 +1,49 @@
+/* Apply styles to the <body> tag */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Style the <a> tags */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+/* Change <a> color on hover */
+a:hover {
+    color: #ff6600;
+}
+
+/* Style the .content class */
+.content {
+    background: #f4f4f4;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+/* Style the #intro id */
+#intro {
+    background: #e2e2e2;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+/* Style the img tag */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
