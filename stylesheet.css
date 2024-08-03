@@ -26,8 +26,7 @@ a {
 
 /* Change <a> color on hover */
 a:hover {
-    color: #0ed743; 
-    text-decoration: underline; 
+    color: #0ed743;  
 }
 
 /* Style the .content class */
